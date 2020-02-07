@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         int c = 167;
         int d = 67;
         int e = 20;
+        int f = 245;
 
         Button btnpindah = findViewById(R.id._btn);
         btnpindah.setOnClickListener(new View.OnClickListener() {
