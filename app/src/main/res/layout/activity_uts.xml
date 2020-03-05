@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UTS">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@color/abu"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo"
+            android:layout_gravity="center"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="20dp">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:text="welcome user"
+            android:layout_marginTop="0dp"
+            android:layout_gravity="center">
+
+        </TextView>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/hitam">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rp.600.000,-"
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:layout_gravity="center"
+            android:textColor="@color/colorAccent">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:text="Date From"
+            android:background="@color/abu">
+
+        </Button>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:text="Date to"
+            android:background="@color/abu"
+            android:layout_marginStart="20dp">
+
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:layout_width="200dp"
+            android:layout_height="40dp">
+
+        </Spinner>
+
+        <Spinner
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp">
+
+        </Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SEND"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/hitam">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Filed"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginStart="200dp"
+            android:textColor="@color/hitam"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:background="@color/abu"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:text="Complete"
+            android:gravity="center"
+            android:textColor="@color/hitam">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:text="40"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@color/hitam">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

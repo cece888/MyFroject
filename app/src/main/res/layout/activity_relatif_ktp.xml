@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelatifKTP">
+
+    <ImageView
+        android:id="@+id/img_relative"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/linci"
+        android:layout_marginStart="20dp"/>
+
+    <ImageView
+        android:id="@+id/img_baris_dua"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/linci"
+        android:layout_toRightOf="@id/img_relative"
+        android:layout_marginLeft="60dp"/>
+
+    <TextView
+        android:id="@+id/txt_baris_tiga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_relative"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="-1dp"
+        android:text="> KTP harus" />
+
+    <TextView
+        android:id="@+id/txt_baris_empat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="> KTP harus tampak jelas"
+        android:layout_below="@id/txt_baris_tiga"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/txt_baris_lima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="> KTP "
+        android:layout_below="@id/txt_baris_empat"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/txt_baris_enam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="terfoto sepenuhnya"
+        android:textStyle="bold"
+        android:layout_below="@id/img_relative"
+        android:layout_toRightOf="@id/txt_baris_tiga"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:id="@+id/txt_baris_tujuh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(Tidak buram)"
+        android:textStyle="bold"
+        android:layout_below="@id/txt_baris_tiga"
+        android:layout_toRightOf="@id/txt_baris_empat"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:id="@+id/txt_baris_delapan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="masih berlaku"
+        android:textStyle="bold"
+        android:layout_below="@id/txt_baris_empat"
+        android:layout_toRightOf="@id/txt_baris_lima"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"/>
+
+    <ImageView
+        android:id="@+id/img_baris_sembilan"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/love"
+        android:layout_marginStart="20dp"
+        android:layout_below="@id/txt_baris_delapan"/>
+
+    <ImageView
+        android:id="@+id/img_baris_sepuluh"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/love"
+        android:layout_marginStart="60dp"
+        android:layout_below="@id/txt_baris_delapan"
+        android:layout_toRightOf="@id/img_baris_sembilan"/>
+
+    <TextView
+        android:id="@+id/txt_baris_sebelas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="> Wajah dan KTP harus"
+        android:layout_below="@id/img_baris_sembilan"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/txt_baris_duabelas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terfoto sepenuhnya"
+        android:textStyle="bold"
+        android:layout_below="@id/img_baris_sembilan"
+        android:layout_toRightOf="@id/txt_baris_sebelas"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:id="@+id/txt_baris_tigabelas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="> Wajah KTP tampak jelas"
+        android:layout_below="@id/txt_baris_sebelas"
+        android:layout_marginStart="20dp"/>
+    <TextView
+        android:id="@+id/txt_baris_empatbelas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(tidak buram)"
+        android:textStyle="bold"
+        android:layout_below="@id/txt_baris_tigabelas"
+        android:layout_marginStart="30dp"/>
+
+    <TextView
+        android:id="@+id/txt_baris_limabelas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="> Letakkan KTP"
+        android:layout_below="@id/txt_baris_empatbelas"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/txt_baris_enambelas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dibawah atau disamping"
+        android:textStyle="bold"
+        android:layout_below="@id/txt_baris_empatbelas"
+        android:layout_toRightOf="@id/txt_baris_limabelas"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:id="@+id/txt_baris_tujuhbelas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="saat mengambil foto"
+        android:textStyle="bold"
+        android:layout_below="@id/txt_baris_enambelas"
+        android:layout_marginStart="30dp"/>
+
+    <Button
+        android:id="@+id/btn_delapanbelas"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="Ambil foto KTP"
+        android:background="@color/colorAccent"
+        android:layout_below="@id/txt_baris_tujuhbelas"
+        android:layout_marginStart="30dp"/>
+
+    <Button
+        android:id="@+id/btn_sembilanbelas"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="Selfi KTP"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/txt_baris_tujuhbelas"
+        android:layout_marginStart="50dp"
+        android:layout_toRightOf="@id/btn_delapanbelas"/>
+
+
+
+</RelativeLayout>
